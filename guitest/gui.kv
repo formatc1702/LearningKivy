@@ -17,14 +17,18 @@
             Label:
                 text: 'Device number:'
             Label:
-                text: '0000'
+                id: lb_counter
+                text: root.counter_str
 
             Label:
                 text: 'Logging:'
-            Switch:
+            Button:
                 id: sw_logging
+                text: root.status
+                on_release: root.hello()
 
             Label:
+                id: lb_status
                 text: 'Status:'
             Label:
                 text: 'ON'
