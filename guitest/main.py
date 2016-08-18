@@ -8,6 +8,8 @@ from time            import sleep
 
 import serial
 
+# LALALALALALALALALALA
+
 # btstring = '/dev/tty.Dekoboko-0000-DevB'
 # bt = None
 
